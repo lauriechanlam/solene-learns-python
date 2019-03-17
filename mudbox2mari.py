@@ -13,6 +13,10 @@
 # In the command line tool, navigate to where this file is (type 'cd C:\Users\<username>\Downloads' without quotes for example)
 # Run this file by typing 'python3 mudbox2mari.py'
 
+# In order to understand what is going on, start by looking at the EXECUTION
+# part of the code, then you can understand what each function does by
+# lookiung at its definition
+
 
 ###  IMPORT UTILITIES ###
 
@@ -54,7 +58,7 @@ def transform_file(directory, filename):
 
 
 
-### >EXECUTION ###
+### EXECUTION ###
 #
 directory = create_directory()                                                  # assigns a string to the variable directory. this string is the return statement of the execution of the create_directory function.
 files = get_mudbox_files_in_directory()                                         # assigns an array of strings to the variable files. this array is the result of the execution of the function get_mudbox_files_in_directory
